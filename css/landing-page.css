@@ -31,11 +31,11 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 40px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 20px;
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/background1.png) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -169,6 +169,7 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+
 #portfolio .portfolio-item {
      right: 0;
      margin: 0 0 15px;
@@ -219,6 +220,7 @@ p.copyright {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
+
     max-width: 400px;
     text-align: center;
     background-color: #fff;
@@ -254,6 +256,7 @@ p.copyright {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
@@ -304,6 +307,7 @@ p.copyright {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
