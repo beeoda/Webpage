@@ -30,6 +30,13 @@ h6 {
     font-weight: 400;
 }
 
+.lead2 {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -101,16 +108,43 @@ h6 {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+
+}
+
+
+.content-section-c {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background: url(../img/bamboo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.content-section-c .services  {
+    background: rgba(0,0,0,.7);
+    padding: 30px;
+}
+
+.content-section-c .section-heading {
+    color: white;
+    padding-bottom: 0px;
 }
 
 .section-heading {
     margin-bottom: 30px;
 }
 
+
+.service-space {
+    float: left;
+    width: 300px;
+    border-top: 2px solid #e7e7e7;
+}
+
 .section-heading-spacer {
     float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+    width: 300px;
+    border-top: 2px solid #e7e7e7;
 }
 
 .banner {
@@ -169,6 +203,11 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+.portfolio {
+    background: url(../img/bamboo.jpg) no-repeat center center;
+    background-size: cover;
+    }
+
 
 #portfolio .portfolio-item {
      right: 0;
@@ -220,10 +259,9 @@ p.copyright {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-
-    max-width: 400px;
+    border: 3px;
+    max-width: 300px;
     text-align: center;
-    background-color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -268,6 +306,7 @@ p.copyright {
 }
 
 .portfolio-modal .modal-content p.item-intro {
+
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -275,6 +314,7 @@ p.copyright {
 }
 
 .portfolio-modal .modal-content ul.list-inline {
+
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -284,6 +324,9 @@ p.copyright {
 }
 
 .portfolio-modal .close-modal {
+
+    border-width: 5px;
+    border-color: 5px;
     position: absolute;
     top: 25px;
     right: 25px;
@@ -320,5 +363,9 @@ p.copyright {
 }
 .portfolio-modal .modal-backdrop {
     display: none;
-    opacity: 0;
+    opacity: Black}
+
+.imageborder {
+    border-width: 5px;
+    border-color: black;
 }
