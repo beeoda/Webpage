@@ -55,7 +55,7 @@
                         <a href="#services">Services</a>
                     </li>
                     <li>
-                        <a href="#tutorials">Tutorials</a>
+                        <a href="#tutorials">Modules</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -128,8 +128,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="services">
-                    <h2 class="section-heading">Services</h2>
-                    <div class="service-space"></div>
+                   <h2 class="section-heading">Services</h2>
                     <div class="clearfix"></div>
                   <p class="lead2">We offer to teach workshops using the BEEODA software and materials for analyzing earth observation data anywhere in the world. Workshop topics may include satellite image classification of land-cover, object-based classification of high-resolution imagery, detection and mapping of land-cover change in satellite imagery, time series analysis of satellite data, accuracy assessment of maps and area estimation of mapped land cover and change.</p>
                 </div>
@@ -150,7 +149,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Open Source Tutorials</h2>
+                    <h2 class="section-heading">Open Source Modules</h2>
                 </div>
             </div>
             <div class="row">
@@ -158,21 +157,21 @@
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-image fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/pre.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Image Pre-Processing</h4>
-                        <p class="text-muted">Cloud mask, etc?</p>
+                        <p class="text-muted">Downloading, atmospheric correction, etc</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-tree fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/class.png" class="img-responsive" alt="">
@@ -186,21 +185,21 @@
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-globe fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/seg.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Segmentation</h4>
-                        <p class="text-muted">Mean Shift; Watershed</p>
+                        <h4>Object-Based Analysis</h4>
+                        <p class="text-muted">Segmentation and Classification</p>
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-fire fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/change.png" class="img-responsive" alt="">
@@ -214,7 +213,7 @@
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-clock-o fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/ts.png" class="img-responsive" alt="">
@@ -228,7 +227,7 @@
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-area-chart fa-3x"></i>
                             </div>
                         </div>
                         <img src="img/error.png" class="img-responsive" alt="">
@@ -399,16 +398,22 @@
                      <div class="col-lg-8 col-lg-offset-2">
                          <div class="modal-body">
                              <!-- Project Details Go Here -->
-                             <h2>Project Name</h2>
-                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                             <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis       dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum,       reiciendis facere nemo!</p>
+                             <h2>Pre-Processing</h2>
+                             <img class="img-responsive img-centered" src="img/pre.png" alt="">
+                             <p class="item-intro text-muted">Topics in the pre-processing portion of the workshops include:</p>
                              <p>
-                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a  href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://      getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                             <li>Searching for and downloading data</li>
+                             <li>FMask for cloud and shadow masking</li>
+                             <li>LEDAPs for atmospheric correction</li>
+                             <li>Image stacking</li>
+                             <li>Creating image subsets</li>
+                             <li>Image compositing</li>
+                             <li>Introduction to Bash, Python, and QGIS</li>
+                             </p>
+                             <p>
+                                 <strong>View the tutorial at: <a  href="https://github.com/beeoda/tutorials/blob/master/1_Introduction/1_Introduction_2015.pdf">GitHub</a>.</p>
                              <ul class="list-inline">
-                                 <li>Date: July 2014</li>
-                                 <li>Client: Round Icons</li>
-                                 <li>Category: Graphic Design</li>
+                                 <li>Date: July 2015</li>
                              </ul>
                              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                          </div>
@@ -432,16 +437,20 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2>Classification</h2>
+                            <img class="img-responsive img-centered" src="img/class.png" alt="">
+                            <p class="item-intro text-muted">Topics to do with classification include:</p>
                             <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
+                            <li>Gathering training data appropriate for study</li>
+                            <li>Using ancillary data to train machine learning algorithms</li>
+                            <li>Creating maps with user-defined classes</li>
+                            <li>Interactively tweeking training data and comparing classification algorithms to perfect map</li>
+                            <li>Cleaning up map to remove isolated pixels</li>
+                              </p>
+                              <p>
+                            <strong>View the tutorial at: <a  href="https://github.com/beeoda/tutorials/tree/master/2_Classification">GitHub</a>.</p> 
+                           <ul class="list-inline">
+                                <li>Date: July 2015</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -466,17 +475,21 @@
                      <div class="col-lg-8 col-lg-offset-2">
                          <div class="modal-body">
                              <!-- Project Details Go Here -->
-                             <h2>Image Segmentation</h2>
-                             <p class="item-intro text-muted">Object-Based Image Analysis.</p>
+                             <h2>Object-Based Analysis</h2>
+                             <p class="item-intro text-muted">Image segmentation and object classification.</p>
                              <img class="img-responsive img-centered" src="img/seg2.png" alt="">
-                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis       dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum,       reiciendis facere nemo!</p>
+                             <p class="item-intro text-muted">Topics to do with segmentation include:</p>
                              <p>
-                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a  href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://      getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                             <ul class="list-inline">
-                                 <li>Date: July 2014</li>
-                                 <li>Client: Round Icons</li>
-                                 <li>Category: Graphic Design</li>
-                             </ul>
+                             <li>Segmenting images using spectral and textural properties</li>
+                             <li>Direct classification of segments using spectral, geometric, and textural properties of segments</li>
+                             <li>Pixel-based map classification using calculated segments for map filtering</li>
+                             <li>Various multi-spectral segmentation techniques including Mean Shift and Watershed analysis</li>
+                               </p>
+                               <p>
+                             <strong>View the tutorial at: <a  href="https://github.com/beeoda/tutorials/tree/master/2_Classification">GitHub</a>.</p> 
+                            <ul class="list-inline">
+                                 <li>Date: July 2015</li>
+                            </ul>
                              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                          </div>
                      </div>
@@ -499,17 +512,21 @@
                  <div class="row">
                      <div class="col-lg-8 col-lg-offset-2">
                          <div class="modal-body">
-                             <!-- Project Details Go Here -->
-                             <h2>Project Name</h2>
-                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                             <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis       dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum,       reiciendis facere nemo!</p>
+                             <!-- Project Details Go Here --> 
+                             <h2>Change Detection</h2>
+                             <p class="item-intro text-muted">Data based methods.</p>
+                             <img class="img-responsive img-centered" src="img/change.png" alt="">
+                             <p class="item-intro text-muted">Topics to do with change detection include:</p>
                              <p>
-                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a  href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://      getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                             <ul class="list-inline">
-                                 <li>Date: July 2014</li>
-                                 <li>Client: Round Icons</li>
-                                 <li>Category: Graphic Design</li>
+                             <li>Image differencing</li>
+                             <li>Principle Component Analysis</li>
+                             <li>Multivariate Alteration Detection (MAD)</li>
+                             <li>Direct classification of change</li>
+                               </p>
+                               <p>
+                             <strong>View the tutorial at: <a  href="https://github.com/beeoda/tutorials/tree/master/3_Change_Detection">GitHub</a>.</p> 
+                            <ul class="list-inline">
+                                 <li>Date: July 2015</li>
                              </ul>
                              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                          </div>
@@ -533,17 +550,26 @@
                      <div class="col-lg-8 col-lg-offset-2">
                          <div class="modal-body">
                              <!-- Project Details Go Here -->
-                             <h2>Project Name</h2>
-                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                             <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis       dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum,       reiciendis facere nemo!</p>
+                             <h2>Time Series Analysis</h2>
+                             <p class="item-intro text-muted">Data exploration and change detection.</p>
+                             <img class="img-responsive img-centered" src="img/ts.png" alt="">
+                             <p class="item-intro text-muted">Topics to do with time series analysis include:</p>
                              <p>
-                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a  href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://      getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                             <ul class="list-inline">
-                                 <li>Date: July 2014</li>
-                                 <li>Client: Round Icons</li>
-                                 <li>Category: Graphic Design</li>
-                             </ul>
+                             <li>Exploring spectral history of images at the pixel level</li>
+                             <li>Calculating statistical models to fit to pixel trajectory</li>
+                             <li>Using CCDC/YATSM to detect changes in temporal models</li>
+                             <li>Classifying temporal segments for each pixel to track landcovers over time</li>
+
+                             <li>Create change maps using time series algorithms</li>
+                             <li>Using QGIS plugin specifically designed for time series analysis</li>
+
+                             <li>Using image stacks for accuracy assessment purposes</li>
+                               </p>
+                               <p>
+                             <strong>View the tutorial at: <a  href="https://github.com/beeoda/tutorials/tree/master/3_Change_Detection">GitHub</a>.</p> 
+                            <ul class="list-inline">
+                                 <li>Date: July 2015</li>
+                            </ul>
                              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                          </div>
                      </div>
@@ -566,17 +592,20 @@
                      <div class="col-lg-8 col-lg-offset-2">
                          <div class="modal-body">
                              <!-- Project Details Go Here -->
-                             <h2>Project Name</h2>
-                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                             <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis       dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum,       reiciendis facere nemo!</p>
-                             <p>
-                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a  href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://      getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                             <ul class="list-inline">
-                                 <li>Date: July 2014</li>
-                                 <li>Client: Round Icons</li>
-                                 <li>Category: Graphic Design</li>
                              </ul>
+                             <h2>Error Estimation</h2>
+                             <p class="item-intro text-muted">Accurate reporting of data.</p>
+                             <img class="img-responsive img-centered" src="img/error.png" alt="">
+                             <p class="item-intro text-muted">Topics to do with error estimation include:</p>
+                             <p>
+                             <li>How to appropriately draw a sample for asessign the accuracy of a map</li>
+                             <li>How to intepret samples using Landsat images and Google Earth</li>
+                             <li>How to calculate area-adjusted accuracy assessments using best practice methods found in literature</li>
+                               </p>
+                               <p>
+                             <strong>View the tutorial at: <a href="https://github.com/beeoda/tutorials/tree/master/4_Estimation">GitHub</a>.</p> 
+                            <ul class="list-inline">
+                                 <li>Date: July 2015</li>
                              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                          </div>
                      </div>
